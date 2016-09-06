@@ -9,7 +9,7 @@
 要求最终要存在一个路径比如`http://www.old.com/XX/某路由` 或者`http://www.old.com/get-weixin-code.html`
 在浏览器里边访问这路径的时候会提示说appid参数错误,大致如下
 >
-&nbsp;&nbsp;&nbsp;![Alt text](https://res.wx.qq.com/connect/zh_CN/htmledition/images/icon80_smile181c98.png "Optional title")
+&nbsp;&nbsp;&nbsp;![Alt text](https://res.wx.qq.com/connect/zh_CN/htmledition/images/icon80_smile181c98.png "Optional title")   
 AppID 参数错误
 
 记下这个路由,这里我们记为 URL_A
@@ -26,4 +26,5 @@ AppID 参数错误
 前两步做完之后应该已经能进去商城了,但是应该还不能支付
 所以第三步就是在公众号A的微信公众号台设置支付相关的参数,具体设置可以参照上线易后台的引导,如果有些参数已经存在(那么应该是为了原系统设置的),不要动已经设置好的参数,再添加一个即可
 
-__一个小细节__: 在设置过程中会遇到一个叫做js业务域名的东西,如果东西的作用是让你的网页里边的输入框被微信浏览器自动提醒说不要输入密码之类的(总之有点烦,这里没什么办法,自己选择吧,要么写原系统域名,要么写www.shangxaine.com)
+__一个小细节__:
+在设置过程中会遇到一个叫做js业务域名的东西,这个东西的作用是让你的网页里边的输入框被微信浏览器自动提醒说不要输入密码之类的(总之有点烦,这里没什么办法,自己选择吧,要么写原系统域名,要么写www.shangxaine.com)
